@@ -1,7 +1,11 @@
 import './style.css';
-import './counter';
+// import './counter';
 import { of, map, filter, fromEvent, Subject } from 'rxjs';
-
+import './Observable';
+import './Subject';
+import './BehaviorSubject';
+import './ReplaySubject';
+import './AsyncSubject';
 // fromEvent(document, 'click')
 //   .pipe(
 //     filter((e, index) => {
